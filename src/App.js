@@ -6,9 +6,15 @@ function App() {
         <img src={logo} className="app-logo" alt="logo" />
       </header>
       <section className="ctas">
-        <button>Play</button>
-        <button>Discord</button>
-        <button>Twitch</button>
+        <a href="steam://connect/185.44.78.3:28025">
+          <span>Play</span>
+        </a>
+        <a href="https://discord.gg/3FFPbJBXMZ">
+          <span>Discord</span>
+        </a>
+        <a href="https://twitch.tv/enumbars">
+          <span>Twitch</span>
+        </a>
       </section>
     </div>
   );
