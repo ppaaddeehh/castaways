@@ -1,7 +1,8 @@
 import logo from "./images/logo.png";
+import backgroundmusic from './music.mp3'
 function App() {
   return (
-    <div className="App">
+    <div className="App"><audio src={backgroundmusic} controls autoPlay hidden type="audio/mpeg" />
       <header className="App-header">
         <img src={logo} className="app-logo" alt="logo" />
       </header>
